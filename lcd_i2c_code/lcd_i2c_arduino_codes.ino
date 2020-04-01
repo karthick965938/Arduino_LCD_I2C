@@ -20,17 +20,19 @@ void loop()
 	delay(1000);//Delay used to give a dynamic effect
 	lcd.setCursor(3,1);  //Defining positon to write from second row,first column .
 	lcd.print("From Home");
-	delay(2500); 
+	delay(3000); 
 	lcd.clear();//Clean the screen
 	lcd.setCursor(4,0);
-	lcd.print("nCovid-19");
-	lcd.setCursor(0,1);
-	lcd.print("Rises: 4,39,962");
+	lcd.print("COVID-19");
+	delay(1000);//Delay used to give a dynamic effect
+	lcd.setCursor(1,1);
+	lcd.print("Rises: 7,39,385");
 	delay(4000);
 	lcd.clear();
-	lcd.setCursor(2,0); 
-	lcd.print(" SUBSCRIBE ");
-	lcd.setCursor(1,1);
-	lcd.print("I2C the master ");
-	delay(3000); 
+	lcd.setCursor(5,0); 
+	lcd.print(" #WFH ");
+	delay(1000);
+	lcd.setCursor(0,1);
+	lcd.print("Spritle Software");
+	delay(3000);
 }
