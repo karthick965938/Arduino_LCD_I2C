@@ -4,7 +4,7 @@ Here i have list down simple steps for connect ***Arduino with LCD Display***
 
 > I have used two basic library
 
-- Wire(This is default one)
+- [Wire](https://www.arduino.cc/en/reference/wire)(This is default one)
 - [LiquidCrystal_I2C](https://github.com/karthick965938/Arduino_LCD_I2C/tree/master/Arduino-LiquidCrystal-I2C-library/) (click this link to download)
 
 Once you have install above libraries. First you can check simple code which is i have added below :) (copy and paste on your Arduino Compiler). If you have ran compiler successfully you can upload your code on Arduino Board.
