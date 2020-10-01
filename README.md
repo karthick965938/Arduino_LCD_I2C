@@ -7,6 +7,9 @@ Here i have list down simple steps for connect ***Arduino with LCD Display***
 - [Wire](https://www.arduino.cc/en/reference/wire)(This is default one)
 - [LiquidCrystal_I2C](https://github.com/karthick965938/Arduino_LCD_I2C/tree/master/Arduino-LiquidCrystal-I2C-library/) (click this link to download)
 
+Run the I2C_address_finder.ino file after connecting I2C to arduino to get the address of I2C on the Serial Monitor because if the address is correct then connection cannot be established properly.
+Generally the address remains same(i.e. 0x27) but it totally depends upon the manufacture/batch. 
+
 Once you have install above libraries. First you can check simple code which is i have added below :) (copy and paste on your Arduino Compiler). If you have ran compiler successfully you can upload your code on Arduino Board.
 ```
 #include <Wire.h> 
